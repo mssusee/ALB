@@ -1,9 +1,9 @@
 #!/bin/bash
 yum install -y httpd php git
 cd /var/www/html
-wget https://github.com/mssusee/ALB/blob/master/Rose.jpg
-wget https://github.com/mssusee/ALB/blob/master/index.php
-wget https://github.com/mssusee/ALB/blob/master/htaccess
+wget https://raw.githubusercontent.com/mssusee/ALB/master/Rose.jpg
+wget https://raw.githubusercontent.com/mssusee/ALB/master/index.php
+wget https://raw.githubusercontent.com/mssusee/ALB/master/htaccess
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/Rose
