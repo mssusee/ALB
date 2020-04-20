@@ -2,7 +2,7 @@
 yum install -y httpd php git
 cd /var/www/html
 wget https://raw.githubusercontent.com/mssusee/ALB/master/Lotus.jpg
-wget https://raw.githubusercontent.com/mssusee/ALB/master/index.php
+wget https://raw.githubusercontent.com/mssusee/ALB/master/index1.php
 wget https://raw.githubusercontent.com/mssusee/ALB/master/htaccess
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
