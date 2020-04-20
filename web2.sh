@@ -3,12 +3,13 @@ yum install -y httpd php git
 cd /var/www/html
 wget https://raw.githubusercontent.com/mssusee/ALB/master/Lotus.jpg
 wget https://raw.githubusercontent.com/mssusee/ALB/master/index1.php
+mv /var/www/html/index1.php /var/www/html/index.php
 wget https://raw.githubusercontent.com/mssusee/ALB/master/htaccess
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/Lotus
 cp /var/www/html/Lotus.jpg /var/www/html/Lotus
-cp /var/www/html/index1.php /var/www/html/Lotus
+cp /var/www/html/index.php /var/www/html/Lotus
 cp /var/www/html/.htaccess /var/www/html/Lotus
 
 sudo systemctl start httpd
